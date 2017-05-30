@@ -1,6 +1,6 @@
 console.log('ready loopy');
 
-var d = new Date();
+var date = new Date();
 
 if (2015 === d.getFullYear()) {
   console.log("I'm in the present!");
