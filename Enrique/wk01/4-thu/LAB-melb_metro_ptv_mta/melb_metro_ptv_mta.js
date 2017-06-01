@@ -23,6 +23,7 @@ function getStations(station){
       return lines[index].stations;
     }
   }
+  return null;
 }
 
 function getJourneyStations(source, destination){
