@@ -2,6 +2,7 @@ console.log('ready loopy');
 
 // The even/odd reporter
 for (var num = 0; num <= 20; num++){
+  debugger
   if (num%2 === 0){
     console.log(num + " is even");
   } else {
@@ -23,4 +24,5 @@ var topChoices = [
 
 for (var choice = 0; choice < topChoices.length; choice++){
   console.log("My " + topChoices[choice][1] + " top choice is " + topChoices[choice][0] + ".");
+  debugger
 }
