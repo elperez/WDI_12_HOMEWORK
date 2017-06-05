@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  font-family: "Verdana", sans-serif;
+}
+
+header{
+  text-align:center;
+  background: url("file:///Users/kit.perez/wdi/WDI_12_HOMEWORK/Enrique/wk02/1-mon/ecardly_CSS/images/background.jpg");
+  background-repeat: repeat-x;
+  
+}
+
+h2 {
+  margin: 5px 0px 5px 0px;
+  font-size: 18px;
+}
+
+img {
+  margin: 20px 0px;
+}
+
+main {
+  /*display: inline;*/
+  padding: 20px 1p0px;
+  text-align:center;
+}
+
+body {
+  background-color: #d6d6d6;
+  width: 1192px;
+}
+
+.wrapper {
+  text-align: center;
+  width: 990px;
+  padding: 5px 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+.content {
+  background-color: white;
+  display: inline-block;
+  max-width: 640px;
+  padding: 20px 20px;
+  margin: 0 20px;
+  float: left;
+  text-align: left;
+}
+
+aside {
+  background-color: white;
+  /*float: right;*/
+  display: inline-block;
+  width: 260px;
+  padding: 20px 20px;
+  margin: 0 20px;
+  text-align:left;
+}
+
+a {
+  color: #cc6633;
+}
+
+footer{
+  clear: both;  
+  text-align: center;
+}
+
+
+
+/*.clearfix:after{
+  width: 800px;
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}*/
