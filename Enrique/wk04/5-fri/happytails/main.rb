@@ -99,7 +99,8 @@ class HappyTailsApp
           @display.showMenu
           @display.showResult(result)
         when "7", "quit"  
-          puts "exiting application..."
+          @display.showStatus("exiting application...")
+          exit
       end
 
       userInput = @display.getInput.downcase
