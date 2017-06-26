@@ -71,9 +71,7 @@ class Shelter
 
     if (clientResult != nil && animalResult != nil)
       clientResult.petList.delete_if {|pet| pet.name == animalName}
-      # animalResult = clientResult.petList.find{| animal|
-      # animal.name == animalName}
-      # clientResult.petList.shift(animalResult)
+      
       animalResult.owner = ""
       result = "animal is now back for adoption"
     elsif animalResult == nil

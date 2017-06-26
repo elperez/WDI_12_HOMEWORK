@@ -1,9 +1,5 @@
 require 'pry'
-# - Client:
-#   - A client should have a name.
-#   - A client should have a number of children.
-#   - A client should have an age.
-#   - A client should have a list of pets.
+
 class Client
 
   attr_accessor :name, :petList
