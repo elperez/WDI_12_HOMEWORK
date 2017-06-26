@@ -53,6 +53,7 @@ class Shelter
 
     if (animalResult != nil && clientResult != nil)
       clientResult.petList.unshift(animalResult)
+      animalResult.owner = clientResult.name
       result = "adoption successful"
     elsif animalResult == nil
       result = "unable to find the animal"
