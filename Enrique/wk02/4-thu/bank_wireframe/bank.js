@@ -1,7 +1,24 @@
 var success = true;
 
+//========
+var createAccount = function(){
+  var balance = 0; //private
+  var newAccount = {
+    name:'asd'; //public
+    getBalance: function(){
+      return balance;
+    }
+    deposit:function(amount){
+      balance+= amount;
+    }
+  }
+}
+
+//========
+
+
 var savingsAccount = {
-  balance:500, 
+  balance:500, //balance should be placed somewhere safe
   savingsInput:document.querySelector('#savingsInput'),
   savingsOutput:document.querySelector('#savingsOutput'),
 
@@ -71,7 +88,10 @@ var savingsWithdrawBtn = document.querySelector('#savingsWithdrawBtn'),
   ;
   
 
-savingsWithdrawBtn.addEventListener('click', savingsAccount.withdraw);
+savingsWithdrawBtn.addEventListener('click', function(){
+  //grab amount = ....
+  savingsAccount.withdraw(amount));
+});
 savingsDepositBtn.addEventListener('click', savingsAccount.deposit);
 checkingWithdrawBtn.addEventListener('click', checkingAccount.withdraw);
 checkingDepositBtn.addEventListener('click', checkingAccount.deposit);

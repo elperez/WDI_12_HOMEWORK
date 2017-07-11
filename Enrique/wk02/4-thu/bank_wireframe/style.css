@@ -21,12 +21,12 @@ body {
 }
 
 h1 {
-  margin: 0px 0px;
+  margin: 40px 40px;
   height: 100px:
 }
 
 .wrapper {
-    background-color: linen;
+  background-color: linen;
 }
 
 .wrapper > * {
