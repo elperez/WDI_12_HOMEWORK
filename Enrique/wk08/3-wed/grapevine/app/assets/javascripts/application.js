@@ -25,14 +25,14 @@ window.onload = function() {
     }
     $.ajax(settings).done(function(response) {
       debugger
-      // var comment = response.data;
-      // for (i=0 ; i<comment.length; i++){
+      var comment = response.data;
+      for (i=0 ; i<comment.length; i++){
         var source = $('#source').html();
         var template = Handlebars.compile(source);
-        var html = template({ comment: response.comment,
-          name: response.name});
+        var html = template({ comment: comment[i].comment,
+          name: comment[i].name});
         $('.comments').append(html);
-      // }
+      }
     });
 
     console.log('after searching')
