@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Tic-Tac-Toe</h1>
+    <nav>
+      <button>play</button>
+      <button>timer</button>
+    </nav>
+  </header>
+  <main>
+    <div id="wrapper" class="wrapper">
+      <div id="content" class="content">
+
+        <div id='gameHeader'>
+          <span id='playerTurn'>Player turn:</span>
+          <span id='timer'>Timer: </span>
+          
+        </div>
+        <table id='table'>
+          <tr>
+            <td onmouseout="onMouseOut(this)" data-cell=0></td>
+            <td onmouseout="onMouseOut(this)" data-cell=1></td>
+            <td onmouseout="onMouseOut(this)" data-cell=2></td>
+          </tr>
+          <tr>
+            <td onmouseout="onMouseOut(this)" data-cell=3></td>
+            <td onmouseout="onMouseOut(this)" data-cell=4></td>
+            <td onmouseout="onMouseOut(this)" data-cell=5></td>
+          </tr>
+          <tr>
+            <td onmouseout="onMouseOut(this)" data-cell=6></td>
+            <td onmouseout="onMouseOut(this)" data-cell=7></td>
+            <td onmouseout="onMouseOut(this)" data-cell=8></td>
+          </tr>                
+        </table>
+        <a onclick="resetGame" href="#">Reset Game</a>
+      </div> 
+      <!-- <aside>
+        <div>
+          <h4>About</h4>
+          <p>This game 
+          </p>
+        </div>
+        <div>
+          <h4>Game Features</h4>
+          <ul>
+            <li>Change the Timer</li>
+            <li>Theme</li>
+          </ul>
+        </div>
+      </aside> -->
+    </div>
+  </main>
+  <footer>
+  </footer>
+</body>
+<script src="app2.js"></script>
+
+</html>

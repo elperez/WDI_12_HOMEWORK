@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: "Verdana", sans-serif;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.savingsAccount > *, .checkingAccount > * {
+  text-align: center;
+  display: block;
+  margin: 10px auto;
+  border: 20px 20px;
+}
+
+.timer {
+  font-size: 40px;
+}
+
+h1 {
+  margin: 40px 40px;
+  height: 100px:
+}
+
+.wrapper {
+  background-color: linen;
+}
+
+.wrapper > * {
+  display:inline-block;
+  margin: 40px 40px;
+  padding: 10px 10px;
+  border: 5px solid plum;
+  background-color: grey;
+  /*text-align: center;*/
+}
+
+
